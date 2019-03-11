@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/Winte/spiriqual_view_tool
-  revision: da02499f8a6fd83c7dc97928d841e60e19e9ae5b
-  specs:
-    spiriqual_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -179,6 +173,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    spiriqual_view_tool (0.1.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -230,7 +225,7 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.2)
   sass-rails (~> 5.0)
-  spiriqual_view_tool!
+  spiriqual_view_tool (~> 0.1.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
