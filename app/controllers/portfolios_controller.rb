@@ -12,7 +12,7 @@ class PortfoliosController < ApplicationController
       Portfolio.find(value[:id]).update(position: value[:position])
     end
 
-    render nothing: true
+    render json: { data: @portfolio_item }
   end
 
 
