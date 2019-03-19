@@ -13,6 +13,7 @@
 //= require jquery3
 //= require bootstrap-sprockets
 //= require rails-ujs
+//= require cocoon
 //= require jquery-ui
 //= require activestorage
 //= require html.sortable
